@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: sans-serif;
+  background-color: #3f6cf7;
+  position: relative;
+}
+.blue {
+  width: 19.8rem;
+  height: 4.5rem;
+  background: linear-gradient(
+      rgba(110, 137, 255, 0.7),
+      rgba(110, 137, 255, 0.7)
+    ),
+    url(img/map.png);
+  color: white;
+  padding: 1rem;
+  position: absolute;
+  top: 3.1rem;
+  left: -0.4rem;
+  border-radius: 2px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.blue img {
+  position: absolute;
+  left: 10rem;
+  top: 0.5rem;
+}
+.blue .flex:first-of-type {
+  margin: 1rem 0;
+}
+.blue button {
+  width: 7rem;
+  height: 2rem;
+  border: 0;
+  border-radius: 2px;
+  color: white;
+  background-color: #3f6cf7;
+  position: absolute;
+  top: 5.5rem;
+  left: 13.5rem;
+}
+.blue button img {
+  height: 1rem;
+  position: absolute;
+  left: 0.2rem;
+}
+.flex span {
+  width: 12rem;
+  height: 0.12rem;
+  background: linear-gradient(90deg, white 10%, rgba(255, 255, 255, 0.5) 90%);
+  position: relative;
+}
+.flex span::before,
+.flex span::after {
+  width: 0.4rem;
+  height: 0.4rem;
+  background-color: white;
+  position: absolute;
+  content: "";
+  border-radius: 50%;
+  top: -0.15rem;
+}
+.flex span::before {
+  left: -0.2rem;
+}
+.flex span::after {
+  left: 11.85rem;
+}
+.time {
+  width: 80%;
+  font-size: 0.7rem;
+}
+.all {
+  width: 21rem;
+  height: 29rem;
+  margin: 5rem auto;
+  position: relative;
+}
+main {
+  width: 21rem;
+  height: 29rem;
+  margin: 5rem auto;
+  background-color: white;
+  overflow: hidden;
+  padding-top: 0.5rem;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.flex h1 {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+main .flex:first-of-type {
+  margin-bottom: 9rem;
+  padding: 0.5rem 1rem;
+}
+main .flex:first-of-type img {
+  opacity: 0.3;
+  height: 1rem;
+}
+.content h3 {
+  margin-bottom: 0.5rem;
+}
+.float {
+  padding: 1rem 0 0 1rem;
+}
+.content h3 {
+  padding-left: 1rem;
+}
+.float img {
+  float: left;
+  margin-right: 1rem;
+}
+.float p {
+  color: #a09fa3;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+.float h3,
+.content h3 {
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+.banner {
+  background-image: url(img/streetview.jpg);
+  background-size: 20rem 4rem;
+  width: 100%;
+  height: 4rem;
+  margin-left: 1rem;
+  border-radius: 5px;
+}
